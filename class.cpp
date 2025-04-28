@@ -23,3 +23,14 @@ private:
 		cout << "harga mobil = " << harga_mobil <<endl;
 	}
 };
+
+int main()
+{
+	Mobil porsche;
+
+	porsche.input_data();
+	cout << "nama mobil = " << porsche.nama_mobil << endl;
+	cout << "tipe mobil = " << porsche.tipe_mobil << endl;
+
+	porsche.output_data();
+}
