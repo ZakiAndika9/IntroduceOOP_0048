@@ -23,3 +23,6 @@ class persegi_panjang{
 	}
 
 };
+int main(){
+	persegi_panjang pp;
+}
